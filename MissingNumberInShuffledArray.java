@@ -18,7 +18,7 @@ public class MissingNumberInShuffledArray {
         }
         return r;
 
-
+// Without Sorting 
 //        long sum1 = 0;
 //        for (int i = 0; i < a.length; i++) {
 //            sum1 = sum1 + a[i];
