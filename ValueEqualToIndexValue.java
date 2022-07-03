@@ -8,14 +8,11 @@ public class ValueEqualToIndexValue {
     }
    static int valueEqualToIndex(int[] arr, int n) {
         // code here
-       ArrayList<Integer> al = new ArrayList<>();
-
        for(int i =0;i<n;i++)
        {
            if(arr[i]==i+1)
            {
-               //return i+1;
-               al.add(i);
+                i+1;
            }
        }
        return 0;
